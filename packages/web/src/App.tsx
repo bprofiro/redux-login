@@ -1,10 +1,23 @@
 import React from 'react';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
+import SignIn from './pages/SignIn';
+import Dashboard from './pages/Dashboard';
+
+import GlobalStyle from './styles/global';
+
+// eslint-disable-next-line
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World </h1>
-    </div>
+    <>
+      <GlobalStyle />
+      <BrowserRouter>
+        <Switch>
+          <Route path="/" exact component={SignIn} />
+          <Route path="/dashboard" component={Dashboard} />
+        </Switch>
+      </BrowserRouter>
+    </>
   );
 }
 
