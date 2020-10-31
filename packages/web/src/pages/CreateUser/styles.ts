@@ -7,7 +7,6 @@ export const Container = styled.div`
 `;
 
 export const Banner = styled.div`
-  width: 60%;
   height: 100vh;
   flex: 1;
   background: #7005f7;
@@ -20,11 +19,12 @@ export const Banner = styled.div`
   }
 `;
 
-export const Image = styled.img``;
+export const Image = styled.img`
+  flex: 1;
+`;
 
 export const Login = styled.div`
   display: flex;
-  flex: 1;
   flex-direction: column;
   align-items: center;
   place-content: center;
@@ -43,6 +43,7 @@ export const Login = styled.div`
   }
 
   a {
+    margin-top: 24px;
     text-decoration: none;
     color: #7005f7;
 
@@ -70,10 +71,4 @@ export const SignInButton = styled.button`
   &:hover {
     background: ${shade(0.2, '#7005f7')};
   }
-`;
-
-export const CreateUserContent = styled.div`
-  display: flex;
-  flex-direction: column;
-  margin-top: 24px;
 `;
