@@ -1,44 +1,175 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+  React Login
+</h1>
 
-## Available Scripts
+<h3 align="center">
+  📚 Uma aplicação para fazer autenticação e usuários.
+</h3>
 
-In the project directory, you can run:
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/bprofiro/react-login?color=%2304D361">
 
-### `yarn start`
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/bprofiro/react-login">
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  <a href="https://github.com/bprofiro/react-login/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/bprofiro/react-login">
+  </a>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+   <a href="https://github.com/bprofiro/react-login/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/bprofiro/react-login?style=social">
+  </a>
 
-### `yarn test`
+  <a href="https://github.com/bprofiro/">
+    <img alt="Feito pela Brenda" src="https://img.shields.io/badge/feito%20pela-Brenda-%237519C1">
+  </a>
+</p>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<h4 align="center">
+	Concluído 🚀
+</h4>
 
-### `yarn build`
+Tabela de conteúdos
+=================
+<!--ts-->
+* [Sobre o projeto](#-sobre-o-projeto)
+   * [Funcionalidades](#-funcionalidades)
+   * [Layout](#-layout)
+     * [Web](#web)
+   * [Como executar o projeto](#-como-executar-o-projeto)
+     * [Pré-requisitos](#pré-requisitos)
+     * [Rodando o Backend (servidor)](#user-content--rodando-o-backend-servidor)
+     * [Rodando a aplicação web (Frontend)](#user-content--rodando-a-aplicação-web-frontend)
+   * [Tecnologias](#-tecnologias)
+     * [WebSite](#user-content-website--react----typescript)
+     * [Server](#user-content-server--nodejs----typescript)
+   * [Contribuidores](#-contribuidores)
+   * [Como contribuir no projeto](#-como-contribuir-no-projeto)
+   * [Autor](#-autor)
+   * [Licença](#user-content--licença)
+<!--te-->
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## 💻 Sobre o projeto
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+React Login -   Esse projeto foi desenvolvido para servir como artigo do meu <a href="https://blog-bprofiro.vercel.app/">blog pessoal</a> sobre como fazer autenticação utilizando React, Redux e uma API em NodeJS.
 
-### `yarn eject`
+A escolha dessa Stack se deve à quantidade de conhecimento que é possível aproveitar entre as tecnologias, por conta de todas elas utilizarem apenas uma linguagem: o JavaScript, além de serem extremamente modernas e poderosas com o uso de seu ecossistema.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+---
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## ⚙️ Funcionalidades
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- [x] Usuários podem se cadastrar na plataforma enviando:
+  - [x] nome, email e senha
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- [x] Usuários podem se autenticar na plataforma enviando:
+  - [x] email e senha
+---
 
-## Learn More
+## 🎨 Layout
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Frontend web
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Você pode conferir o layout da aplicação entrando nesse <a href="https://www.figma.com/file/txRHTjDkz1SQr2x11yGSHM/Login?node-id=0%3A1">link do Figma</a>
+
+---
+
+## 🚀 Como executar o projeto
+
+### Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+
+#### 🎲 Rodando o Backend (servidor)
+
+```bash
+
+# Clone este repositório
+$ git clone https://github.com/bprofiro/api-login.git
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd api-login
+
+# Instale as dependências
+$ npm install
+
+# Execute a aplicação em modo de desenvolvimento
+$ npm start
+
+# O servidor inciará na porta:3333 - acesse http://localhost:3333
+
+```
+---
+
+#### 🎲 Rodando o Frontend (web)
+
+```bash
+
+# Clone este repositório
+$ git clone https://github.com/bprofiro/react-login.git
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd react-login
+
+# Instale as dependências
+$ npm install
+
+# Execute a aplicação em modo de desenvolvimento
+$ npm start
+
+# O servidor inciará na porta:3000 - acesse http://localhost:3000
+
+```
+---
+
+## 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+#### **Backend**
+-   **[Node](https://nodejs.org/en/)**
+-   **[Express](https://expressjs.com/pt-br/)**
+-   **[CORS](https://github.com/expressjs/cors)**
+
+#### **Web**
+
+-   **[React](https://pt-br.reactjs.org/)**
+-   **[React Icons](https://react-icons.github.io/react-icons/)**
+-   **[React Router Dom](https://reactrouter.com/web/guides/quick-start)**
+-   **[Redux](https://redux.js.org/)**
+-   **[Redux Saga](https://redux-saga.js.org/)**
+-   **[Styled-components](https://styled-components.com/)**
+
+---
+
+## 💪 Como contribuir no projeto
+
+1. Faça um **fork** do projeto.
+2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
+3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
+4. Envie as suas alterações: `git push origin my-feature`
+> Caso tenha alguma dúvida confira este [guia de como contribuir no GitHub](./CONTRIBUTING.md)
+
+---
+
+## 🦸 Autor
+<p align="center">
+  <a href="https://github.com/bprofiro">
+  <img style="border-radius: 50%;" src="https://avatars2.githubusercontent.com/u/59852846?s=460&u=7eefe48768a2c3f95271868f85d8e61f9ffbebad&v=4" width="100px;" alt=""/>
+  <br />
+  <sub><b>Brenda Profiro</b></sub></a> <a href="https://blog-bprofiro.vercel.app/" title="Blog Pessoal">🚀</a>
+  <br />
+</p>
+
+---
+
+## 📝 Licença
+
+Este projeto esta sobe a licença [MIT](./LICENSE).
+
+Feito com ❤️ por Brenda Profiro 👋🏽 [Entre em contato!](https://www.linkedin.com/in/brenda-profiro/)
+
+---
