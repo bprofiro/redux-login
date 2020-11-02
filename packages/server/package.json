@@ -1,5 +1,5 @@
 {
-  "name": "api",
+  "name": "@login/server",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Brenda Profiro <brendaprofiro@gmail.com>",
