@@ -1,9 +1,5 @@
 import styled from 'styled-components';
-<<<<<<< Updated upstream
-=======
-import { Link } from 'react-router-dom';
 
->>>>>>> Stashed changes
 import { shade } from 'polished';
 
 export const Container = styled.div`
@@ -14,11 +10,6 @@ export const Container = styled.div`
   justify-content: center;
 `;
 
-<<<<<<< Updated upstream
-export const Image = styled.img``;
-
-export const Button = styled.button`
-=======
 export const ImageMobile = styled.img`
   @media (min-width: 440px) {
     display: none;
@@ -32,17 +23,10 @@ export const Image = styled.img`
 `;
 
 export const SignOutButton = styled.button`
->>>>>>> Stashed changes
   width: 110px;
   height: 56px;
   border: none;
   border-radius: 10px;
-<<<<<<< Updated upstream
-  margin-top: -20px;
-  margin-right: auto;
-  margin-left: auto;
-  background: #7005f7;
-=======
 
   margin-right: auto;
   margin-left: auto;
@@ -64,7 +48,6 @@ export const SignOutButton = styled.button`
     left: 40%;
     top: 85%;
   } */
->>>>>>> Stashed changes
 
   &:hover {
     background: ${shade(0.2, '#7005f7')};
