@@ -1,5 +1,5 @@
 <h1 align="center">
-  React Login
+  Redux Login
 </h1>
 
 <h3 align="center">
@@ -7,17 +7,17 @@
 </h3>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/bprofiro/react-login?color=%2304D361">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/bprofiro/redux-login?color=%2304D361">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/bprofiro/react-login">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/bprofiro/redux-login">
 
-  <a href="https://github.com/bprofiro/react-login/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/bprofiro/react-login">
+  <a href="https://github.com/bprofiro/redux-login/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/bprofiro/redux-login">
   </a>
 
    <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
-   <a href="https://github.com/bprofiro/react-login/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/bprofiro/react-login?style=social">
+   <a href="https://github.com/bprofiro/redux-login/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/bprofiro/redux-login?style=social">
   </a>
 
   <a href="https://github.com/bprofiro/">
