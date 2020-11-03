@@ -1,17 +1,3 @@
-<<<<<<< Updated upstream
-import React from 'react';
-
-import DashboardImage from '../../assets/Dashboard.svg';
-
-import { Container, Image, Button } from './styles';
-
-const Dashboard: React.FC = () => {
-  return (
-    <Container>
-      <Image src={DashboardImage} alt="Background" />
-
-      <Button type="submit">Sair</Button>
-=======
 import React, { useCallback } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { useHistory } from 'react-router-dom';
@@ -44,7 +30,6 @@ const Dashboard: React.FC = () => {
       <SignOutButton type="button" onClick={handleSubmit}>
         Sair
       </SignOutButton>
->>>>>>> Stashed changes
     </Container>
   );
 };
