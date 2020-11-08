@@ -88,39 +88,27 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 ```bash
 
 # Clone este repositório
-$ git clone https://github.com/bprofiro/api-login.git
+$ git clone https://github.com/bprofiro/redux-login.git
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd api-login
+$ cd redux-login
 
 # Instale as dependências
 $ npm install
 
+# Acesse a pasta do servidor
+$ cd server
+
 # Execute a aplicação em modo de desenvolvimento
-$ npm start
+$ npm dev:server
 
 # O servidor inciará na porta:3333 - acesse http://localhost:3333
 
-```
----
+# Acesse a pasta do frontend
+$ ..
+$ cd web
 
-#### 🎲 Rodando o Frontend (web)
-
-```bash
-
-# Clone este repositório
-$ git clone https://github.com/bprofiro/react-login.git
-
-# Acesse a pasta do projeto no terminal/cmd
-$ cd react-login
-
-# Instale as dependências
-$ npm install
-
-# Execute a aplicação em modo de desenvolvimento
-$ npm start
-
-# O servidor inciará na porta:3000 - acesse http://localhost:3000
+# O frontend inciará na porta:3000 - acesse http://localhost:3000
 
 ```
 ---
